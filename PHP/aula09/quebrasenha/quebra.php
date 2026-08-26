@@ -5,5 +5,6 @@ while ($atual != $senha){
     echo "tentando senha:  $atual<br>";
     $atual ++;
 };
-echo "Sua senha é: $atual"; 
+echo "Sua senha é: $atual";
+header("refresh:5;url=index.php");
 ?>
